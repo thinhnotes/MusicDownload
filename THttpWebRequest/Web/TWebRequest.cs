@@ -8,12 +8,6 @@ using Utility.Utility;
 
 namespace THttpWebRequest
 {
-    public enum TypeRequest
-    {
-        Normal,
-        Json
-    }
-
     public class TWebRequest
     {
         private string _userAngent;

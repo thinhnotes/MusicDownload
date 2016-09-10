@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Entity\Music.cs" />
     <Compile Include="Entity\Source.cs" />
-    <Compile Include="Enum\Enum.cs" />
+    <Compile Include="Enum\MusicType.cs" />
     <Compile Include="IMusicDownload.cs" />
     <Compile Include="IPlaylistDownload.cs" />
     <Compile Include="MusicDownloaderBase.cs" />
@@ -55,9 +55,7 @@
       <Name>THttpWebRequest</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OpenSource\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
