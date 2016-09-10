@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using AutoMapper;
+using Core.Entity;
+
+namespace MusicMp3ZingVn
+{
+    public class SourceResolver : IValueResolver<MusicDto, Music, ICollection<Source>>
+    {
+        public ICollection<Source> Resolve(MusicDto source, Music destination, ICollection<Source> destMember, ResolutionContext context)
+        {
+            var sources = new List<Source>
+            {
+                new Source()
+                {
+                    Quality = "128",
+                    Link = source.Sources.Link128
+                },
+                new Source()
+                {
+                    Quality = "320",
+                    Link = source.Sources.Link320
+                },
+                new Source()
+                {
+                    Quality = "Lossless",
+                    Link = source.Sources.Lossless
+                }
+            };
+            return sources;
+        }
+    }
+}
