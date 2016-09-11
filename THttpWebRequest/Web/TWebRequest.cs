@@ -134,7 +134,7 @@ namespace THttpWebRequest
             }
         }
 
-        protected string Get(string url, bool autoRedirect = false)
+        public string Get(string url, bool autoRedirect = false)
         {
             AutoRedirect = autoRedirect;
             return GetContent(url);

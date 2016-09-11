@@ -8,9 +8,6 @@
       <string>c:\users\tu\documents\visual studio 2015\projects\musicdownloadtest\musicmp3zingvn\app.config</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\tu\documents\visual studio 2015\projects\musicdownloadtest\musicmp3zingvn\packages.config</string>
-    </ArrayOfString>
-    <ArrayOfString>
       <string>c:\users\tu\documents\visual studio 2015\projects\musicdownloadtest\musicmp3zingvn\mp3zingvnclient.cs</string>
     </ArrayOfString>
     <ArrayOfString>
@@ -38,10 +35,25 @@
       <string>c:\users\tu\documents\visual studio 2015\projects\musicdownloadtest\musicmp3zingvn\properties\assemblyinfo.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\tu\documents\visual studio 2015\projects\musicdownloadtest\thttpwebrequest\web\twebrequest.cs</string>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\OpenSource\JsonNet\Newtonsoft.Json\JsonSerializer.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\tu\documents\visual studio 2015\projects\musicdownloadtest\musicmp3zingvn\sourceresolver.cs</string>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\NhacCuaTuiCom\Program.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\NhacCuaTuiCom\NhacCuaTuiClient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\THttpWebRequest\Web\TWebRequest.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\Core\WebHttpClient.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\NhacCuaTuiCom\MusicDto.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Tu\Documents\Visual Studio 2015\Projects\MusicDownloadTest\NhacCuaTuiCom\SourceResolver.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

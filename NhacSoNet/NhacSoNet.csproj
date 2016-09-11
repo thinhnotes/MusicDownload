@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81F4F3DC-C517-4BFE-A5B2-AC428D3724DD}</ProjectGuid>
+    <ProjectGuid>{49A205FC-CB24-4BD6-9284-4121D9C99935}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NhacCuaTuiCom</RootNamespace>
-    <AssemblyName>NhacCuaTuiCom</AssemblyName>
+    <RootNamespace>NhacSoNet</RootNamespace>
+    <AssemblyName>NhacSoNet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,11 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MusicDto.cs" />
-    <Compile Include="NhacCuaTuiClient.cs" />
+    <Compile Include="Entity\MusicDto.cs" />
+    <Compile Include="Entity\PlayList.cs" />
+    <Compile Include="Entity\SourceResolver.cs" />
+    <Compile Include="NhacSoClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SourceResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -59,6 +60,10 @@
     <ProjectReference Include="..\OpenSource\AutoMapper\AutoMapper.Net4\AutoMapper.Net4.csproj">
       <Project>{8c955148-fa96-4f0d-880d-abb6770f54e9}</Project>
       <Name>AutoMapper.Net4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenSource\JsonNet\Newtonsoft.Json\Newtonsoft.Json.Net40.csproj">
+      <Project>{a9ae40ff-1a21-414a-9fe7-3be13644cc6d}</Project>
+      <Name>Newtonsoft.Json.Net40</Name>
     </ProjectReference>
     <ProjectReference Include="..\THttpWebRequest\THttpWebRequest.csproj">
       <Project>{b3a737ac-70e9-4295-bbdb-5bc7f77945f3}</Project>

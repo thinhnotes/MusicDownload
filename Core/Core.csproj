@@ -48,6 +48,7 @@
     <Compile Include="IPlaylistDownload.cs" />
     <Compile Include="MusicDownloaderBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebHttpClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\THttpWebRequest\THttpWebRequest.csproj">

@@ -15,8 +15,10 @@ namespace MusicMp3ZingVn
 {
     public class Mp3ZingVnClient : MusicDownloaderBase
     {
+        private static readonly WebHttpClient WebRequest;
         static Mp3ZingVnClient()
         {
+            WebRequest = new WebHttpClient();
             Mapper.Initialize(cfg =>
             {
                 cfg.CreateMap<Music, MusicDto>().ForMember(des => des.Sources, opt => opt.MapFrom(src => src.Sources.ElementAt(0)));
@@ -38,7 +40,7 @@ namespace MusicMp3ZingVn
         {
             var key = GetKey(url);
             string rawUrl = String.Format(Url, key);
-            var content = Get(rawUrl);
+            var content = WebRequest.Get(rawUrl);
             var musicDto = JsonConvert.DeserializeObject<MusicDto>(content);
             return Mapper.Map<MusicDto, Music>(musicDto);
         }

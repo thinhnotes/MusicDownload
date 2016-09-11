@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonNet", "JsonNet", "{DBBC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net40", "OpenSource\JsonNet\Newtonsoft.Json\Newtonsoft.Json.Net40.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhacSoNet", "NhacSoNet\NhacSoNet.csproj", "{49A205FC-CB24-4BD6-9284-4121D9C99935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

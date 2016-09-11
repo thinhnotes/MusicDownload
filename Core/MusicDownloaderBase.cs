@@ -9,7 +9,7 @@ using THttpWebRequest;
 
 namespace Core
 {
-    public abstract class MusicDownloaderBase : TWebRequest, IMusicDownload, IPlaylistDownload
+    public abstract class MusicDownloaderBase : IMusicDownload, IPlaylistDownload
     {
         private string _location;
 
