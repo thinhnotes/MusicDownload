@@ -1,6 +1,5 @@
 {
-  "locked": false,
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETFramework,Version=v4.0": {},
     ".NETFramework,Version=v4.0/win": {}
@@ -10,6 +9,34 @@
     "": [],
     ".NETFramework,Version=v4.0": []
   },
-  "tools": {},
-  "projectFileToolGroups": {}
+  "packageFolders": {
+    "C:\\Users\\thinhnguyenh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Users\\thinhnguyenh\\Desktop\\git\\MusicDownload\\OpenSource\\JsonNet\\Newtonsoft.Json\\Newtonsoft.Json.Net40.csproj",
+      "projectName": "Newtonsoft.Json.Net40",
+      "projectPath": "C:\\Users\\thinhnguyenh\\Desktop\\git\\MusicDownload\\OpenSource\\JsonNet\\Newtonsoft.Json\\Newtonsoft.Json.Net40.csproj",
+      "projectJsonPath": "C:\\Users\\thinhnguyenh\\Desktop\\git\\MusicDownload\\OpenSource\\JsonNet\\Newtonsoft.Json\\Newtonsoft.Json.Net40.project.json",
+      "packagesPath": "C:\\Users\\thinhnguyenh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thinhnguyenh\\Desktop\\git\\MusicDownload\\OpenSource\\JsonNet\\Newtonsoft.Json\\obj\\",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "C:\\Users\\thinhnguyenh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "net40": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
 }

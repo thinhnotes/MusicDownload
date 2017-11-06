@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THttpWebRequest", "THttpWebRequest\THttpWebRequest.csproj", "{B3A737AC-70E9-4295-BBDB-5BC7F77945F3}"
 EndProject
@@ -12,18 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMp3ZingVn", "MusicMp3ZingVn\MusicMp3ZingVn.csproj", "{09F8CE0E-CF18-42EA-A153-A9BC226757B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhacCuaTuiCom", "NhacCuaTuiCom\NhacCuaTuiCom.csproj", "{81F4F3DC-C517-4BFE-A5B2-AC428D3724DD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenSource", "OpenSource", "{B2EE94A8-14C1-4DB2-BBBE-1038B33A8B63}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Net4", "OpenSource\AutoMapper\AutoMapper.Net4\AutoMapper.Net4.csproj", "{8C955148-FA96-4F0D-880D-ABB6770F54E9}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AutoMapper", "OpenSource\AutoMapper\AutoMapper\AutoMapper.xproj", "{35888286-1428-4BF3-BB0C-D8BC092D0A5D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapperSource", "AutoMapperSource", "{80FBC441-29E6-4367-A713-29E2F6FBB525}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonNet", "JsonNet", "{DBBC8FDB-A3A2-4837-8895-1DFC2FFB8E36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net40", "OpenSource\JsonNet\Newtonsoft.Json\Newtonsoft.Json.Net40.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhacSoNet", "NhacSoNet\NhacSoNet.csproj", "{49A205FC-CB24-4BD6-9284-4121D9C99935}"
 EndProject
@@ -55,18 +43,6 @@ Global
 		{81F4F3DC-C517-4BFE-A5B2-AC428D3724DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F4F3DC-C517-4BFE-A5B2-AC428D3724DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F4F3DC-C517-4BFE-A5B2-AC428D3724DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C955148-FA96-4F0D-880D-ABB6770F54E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C955148-FA96-4F0D-880D-ABB6770F54E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C955148-FA96-4F0D-880D-ABB6770F54E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C955148-FA96-4F0D-880D-ABB6770F54E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35888286-1428-4BF3-BB0C-D8BC092D0A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35888286-1428-4BF3-BB0C-D8BC092D0A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35888286-1428-4BF3-BB0C-D8BC092D0A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35888286-1428-4BF3-BB0C-D8BC092D0A5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A205FC-CB24-4BD6-9284-4121D9C99935}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,11 +55,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8C955148-FA96-4F0D-880D-ABB6770F54E9} = {80FBC441-29E6-4367-A713-29E2F6FBB525}
-		{35888286-1428-4BF3-BB0C-D8BC092D0A5D} = {80FBC441-29E6-4367-A713-29E2F6FBB525}
-		{80FBC441-29E6-4367-A713-29E2F6FBB525} = {B2EE94A8-14C1-4DB2-BBBE-1038B33A8B63}
-		{DBBC8FDB-A3A2-4837-8895-1DFC2FFB8E36} = {B2EE94A8-14C1-4DB2-BBBE-1038B33A8B63}
-		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D} = {DBBC8FDB-A3A2-4837-8895-1DFC2FFB8E36}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA1D8405-469D-45F6-9EA4-512392C404C6}
 	EndGlobalSection
 EndGlobal
